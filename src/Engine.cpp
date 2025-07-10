@@ -220,6 +220,7 @@ bool Engine::readSettingsINI() {
         readINIValue(L"General", L"fVolumeMinimumToTrigger",
                      paramVolumeMinimumToTrigger);
         readINIValue(L"General", L"fVolumeMax", paramVolumeMax);
+        readINIValue(L"General", L"fVolumeMin", paramVolumeMin);
         readINIValue(L"General", L"iConsecutiveMinimumsToTrigger",
                      paramConsecutiveMinimumsToTrigger);
         readINIValue(L"General", L"iConsecutiveMinimumsToEnd",
